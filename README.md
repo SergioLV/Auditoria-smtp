@@ -1,4 +1,4 @@
-# Protocolo Simple Mail Transfer Protocol (SMTP)
+# Simple Mail Transfer Protocol (SMTP)
 En esta tarea se analizó el protocolo SMTP con un esquema Cliente-Servidor en donde cada uno está en un Docker separado.
 
 ## Cliente
