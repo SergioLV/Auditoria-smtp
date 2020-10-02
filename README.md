@@ -5,10 +5,27 @@ En esta tarea 2 del ramo Taller de Redes y Servicios, analizamos el protocolo SM
 Para enviar mails al servidor, utilizamos la librería de python [Sender](https://github.com/SergioLV/sender)
 
 ## Instalación y ejecución.
-Iniciamos con el comando docker build, el cual nos genera una imagen.
-COMANNDO: docker build --rm -t sender .
-Posteriormente con el comando docker image ls, obtendremos el ID de la imagen generada.
-para luego con el comando docker run -it <ID> bash ingresar en nuestro docker.
+Para generar una imagen de Docker para el cliente, iniciamos con el comando:
+```sh
+docker build --rm -t sender .
+```
+Luego,
+```sh
+docker image ls
+```
+para obtener el id del contenedor.
+
+Posteriormente,
+```sh
+docker run -it <ID> bash
+```
+para ingresar al contenedor.
+
+Finalmente,
+```sh
+python3 sender.py 
+```
+para enviar un correo con datos al servidor y luego un correo con una imagen.
 # Servidor
 Para ejecutar el servidor, utilizamos el software [Smtp4dev](https://github.com/rnwood/smtp4dev).
 
