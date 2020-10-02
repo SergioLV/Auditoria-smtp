@@ -36,3 +36,5 @@ Finalmente,
 python3 sender.py 
 ```
 para enviar un correo con datos al servidor y luego un correo con una imagen.
+# Video de referencia
+Para ver una captura del tráfico generado al enviar 1 correo con texto y 1 correo con una imagen, pueden ver este [Video de youtube.](https://www.youtube.com/watch?v=-LaoRemJoH4)
