@@ -5,4 +5,4 @@ En esta tarea se analizó el protocolo SMTP con un esquema Cliente-Servidor en d
 Para enviar mails al servidor, utilizamos la librería de python [Sender](https://github.com/SergioLV/sender)
 
 ## Servidor
-Estamos trabajando para usted.
+Para ejecutar el servidor,
