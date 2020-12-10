@@ -1,0 +1,6 @@
+alert tcp any any -> any any (msg:"Paquete de remitente detectado";pcre:"/^RCPT TO\x3a/ism"; sid:10001; rev:1;)
+alert tcp any any -> any any (msg:"Codigo 250 sin alteraciones";content:"250 Recipient accepted";isdataat:2;sid:2;rev:1;)
+alert tcp any any -> any any (msg:"Termino de conexion detectado";content:"quit"; offset:0; sid: 123123; rev:1;)
+alert tcp any any -> any any (msg:"Conexion aceptada por el servidor";content:"250-Nice to meet you.";flow:from_server,established;sid:4321;rev:1;)
+
+alert tcp any any -> any any (msg:"Quit sin alteraciones";content:"quit";isdataat:2;sid:1412;rev:1;)
