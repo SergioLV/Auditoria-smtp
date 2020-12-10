@@ -36,6 +36,9 @@ Finalmente,
 python3 sender.py 
 ```
 para enviar un correo con datos al servidor y luego un correo con una imagen.
-# Video de referencia
+# Snort 
+Para la captura de tráfico anómalo con snort, utilizamos las reglas que se ven en este [Archivo]
 
-Para ver una captura del tráfico generado al enviar 1 correo con texto y 1 correo con una imagen, pueden ver este [Video de youtube.](https://youtu.be/Xiog6lZZXoc)
+## Video de referencia con Snort. 
+
+En este video se muestra como, utilizando Snort, logramos capturar paquetes con 5 tipos de reglas que creamos. [Video de youtube.](https://www.youtube.com/watch?v=Rek9CyL-1P8&feature=youtu.be&ab_channel=SergioLagos)
