@@ -41,4 +41,4 @@ Para la captura de tráfico anómalo con snort, utilizamos las reglas que se ven
 
 ## Video de referencia con Snort. 
 
-En este video se muestra como, utilizando Snort, logramos capturar paquetes con 5 tipos de reglas que creamos. [Video de youtube.](https://www.youtube.com/watch?v=Rek9CyL-1P8&feature=youtu.be&ab_channel=SergioLagos)
+En este [Video de youtube.](https://www.youtube.com/watch?v=R    ek9CyL-1P8&feature=youtu.be&ab_channel=SergioLagos) se muestra como, utilizando Snort, logramos capturar paquetes con 5 tipos de reglas que creamos. 
